@@ -1,0 +1,46 @@
+Adresse de l’image	Type de signe	Nature	Majuscule ou minucule ?	Commentaire	Problème	Encodage
+img/caracteres/abbrPer.jpg	abréviation	per				&#xA751;
+img/caracteres/abbrQue.jpg	abréviation	us (plus)				&#xA770;
+img/caracteres/abbrVostre.jpg	abréviation	vostre				vr&#x0303;e
+img/caracteres/majAprPauseFaible.jpg	exemple	majuscule employée après une pause faible				
+img/caracteres/Amin.jpg	lettre	A	min			
+img/caracteres/Bmin.jpg	lettre	B	min			
+img/caracteres/Cmaj.jpg	lettre	C	maj			
+img/caracteres/Cmin.jpg	lettre	C	min			
+img/caracteres/Dmin.jpg	lettre	D	min			
+img/caracteres/Dmin2.jpg	lettre	D	min			
+img/caracteres/Dmin3.jpg	lettre	D	min			
+img/caracteres/Emaj.jpg	lettre	E	maj			
+img/caracteres/Emin.jpg	lettre	E	min			
+img/caracteres/EminTild.jpg	lettre	E	min	tildé		e&#x0303;
+img/caracteres/Fmin.jpg	lettre	F	min			
+img/caracteres/Gmin.jpg	lettre	G	min			
+img/caracteres/Imin.jpg	lettre	I	min			
+img/caracteres/Iini.jpg	lettre	I	min	initial		
+img/caracteres/Jmin.jpg	lettre	J	min	intial	Peut-il être employé en milieu de mot ?	
+img/caracteres/Lmin.jpg	lettre	L	min			
+img/caracteres/Mmin.jpg	lettre	M	min			
+img/caracteres/Nmin.jpg	lettre	N	min			
+img/caracteres/OminTild.jpg	lettre	O	min	tildé		o&#x0303;
+img/caracteres/Pmin.jpg	lettre	P	min			
+img/caracteres/Qmin.jpg	lettre	Q	min			
+img/caracteres/Rmin.jpg	lettre	R	min			
+img/caracteres/RminIni.jpg	lettre	R	min	initial		
+img/caracteres/Rmin2.jpg	lettre	R	min			
+img/caracteres/Smaj.jpg	lettre	S	maj			
+img/caracteres/Smin.jpg	lettre	S	min			
+img/caracteres/Smin2.jpg	lettre	S	min			
+img/caracteres/Smin3.jpg	lettre	S	min			
+img/caracteres/Tmin.jpg	lettre	T	min			
+img/caracteres/Umin.jpg	lettre	U	min			
+img/caracteres/VminIni.jpg	lettre	V	min	initial		
+img/caracteres/Xmni.jpg	lettre	X	min			
+img/caracteres/Ymin.jpg	lettre	Y	min			
+img/caracteres/Zmin.jpg	lettre	Z	min			
+img/caracteres/ponctTraitUnion.jpg	ponctuation	trait d’union		fin de ligne		-
+img/caracteres/ponct01.jpg	ponctuation			fin de ligne	caractère de suite ?, plus probablement coupure, mais à confirmer	
+img/caracteres/virga.jpg	ponctuation			coupure faible	comment encoder ?	
+img/caracteres/ponct02.jpg	ponctuation			coupure forte	comment encoder ?	
+img/caracteres/point.jpg	ponctuation	point médian		coupure forte		&#x00B7;
+img/caracteres/EminTild.jpg	signe combiné	tilde	min			&#x0303;
+https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/1540,4025,55,73/max/0/default.jpg	signe tironien	et		privilégié sur le et tironien barré (&etslash;)		&#x204A;
