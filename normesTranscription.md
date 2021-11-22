@@ -3,7 +3,7 @@ Normes de transcription : liste de points d'attention
 
 # Mise en page
 ## Paragraphes
-Les paragraphes sont soigneusement marqués dans le manuscrit par l’alternance des **pieds de mouche ¶** rouges et bleus. **=> Faut-il les traiter en tant qu'image ?** Y a-t-il une entité dédiée dans Segmonto ?
+Les paragraphes sont soigneusement marqués dans le manuscrit par l’alternance des **pieds de mouche ¶** rouges et bleus. Discuté dans l'[issue 13](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/13), nous pourrions opter pour une simple transcription avec le caractère MUFI PILCROW SIGN (si choisi, reprendre l'argumentation).
 
 # Emploi de caractères spéciaux
 - Le projet CREMMA Médiéval (désormais CM) propose une [table des caractères](https://github.com/HTR-United/cremma-medieval/blob/main/table.csv)

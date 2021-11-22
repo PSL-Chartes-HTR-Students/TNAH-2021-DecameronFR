@@ -44,3 +44,4 @@ img/caracteres/ponct02.jpg	ponctuation			coupure forte	comment encoder ?
 img/caracteres/point.jpg	ponctuation	point médian		coupure forte		&#x00B7;
 img/caracteres/EminTild.jpg	signe combiné	tilde	min			&#x0303;
 https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/1540,4025,55,73/max/0/default.jpg	signe tironien	et		privilégié sur le et tironien barré (&etslash;)		&#x204A;
+https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f20/3026,2835,535,240/max/0/default.jpg	ponctuation	pied de mouche		coupure forte	en discussion issue #13	&#x00B6;
