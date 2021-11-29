@@ -4,6 +4,10 @@ Normes de transcription : liste de points d'attention
 # Mise en page
 ## Paragraphes
 Les paragraphes sont soigneusement marqués dans le manuscrit par l’alternance des **pieds de mouche ¶** rouges et bleus. Discuté dans l'[issue 13](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/13), nous pourrions opter pour une simple transcription avec le caractère MUFI PILCROW SIGN (si choisi, reprendre l'argumentation).
+- Approuvé par [Victor](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-977986556)
+
+## Annotations
+Voir issue #21
 
 # Emploi de caractères spéciaux
 - Le projet CREMMA Médiéval (désormais CM) propose une [table des caractères](https://github.com/HTR-United/cremma-medieval/blob/main/table.csv)
@@ -25,10 +29,12 @@ Les majuscules sont employées en début de phrase (après une coupure forte, en
 
 ![exemple](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/2232,1452,1210,227/max/0/default.jpg)
 
-Il est sans doute judicieux de respecter l'emploi des majuscules et des minuscules dans le manuscrit.
+Point développé dans [ce commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-981415832) : il s'agirait de transcrire en maj. le E dans le cas du et initial ayant cette valeur syntaxique.
 
 ## Allographes
 Faut-il distinguer *s* long et *s* rond, par exemple ? **Ils ne sont pas distingués dans CM**. Il s'agit d'entraîner l'algorithme à la reconnaissance des caractères, quelle que soit leur forme graphique.
+
+Voir issue #17.
 
 ## Abréviations
 Les abréviations ne doivent pas être résolues. On fera appel à des **caractères spéciaux MUFI** pour noter les signes d'abréviation.
