@@ -12,9 +12,9 @@ Les paragraphes sont soigneusement marqués dans le manuscrit par l’alternance
 # Règles de transcription
 Les lettres *i* et *u* doivent être transcrites telles quelles.
 
-En position initiale, *i* et *j* suivent le même *ductus*. **Le retrouve-t-on avec valeur de *j* en milieu de mot ?**
+En position initiale, *i* et *j* suivent le même *ductus*. **Le retrouve-t-on avec valeur de *j* en milieu de mot ?** traité dans [ce commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-981391510).
 
-En position initiale, *v* est distingué, **mais il faut contrôler qu'il ne s'agisse pas d'un *u* initial générique**.
+En position initiale, *v* prend une forme particulière, mais sa valeur peut être aussi bien *u* que *v*. **Ajouter un exemple avec l'article *une***
 
 ## Majuscules et minuscules
 Les noms propres ne prennent pas de majuscule dans le manuscrit (*florence*, f2vb) :
