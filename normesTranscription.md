@@ -16,7 +16,7 @@ Voir issue #21
 # Règles de transcription
 Les lettres *i* et *u* doivent être transcrites telles quelles.
 
-En position initiale, *i* et *j* suivent le même *ductus*. **Le retrouve-t-on avec valeur de *j* en milieu de mot ?** traité dans [ce commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-981391510).
+En position initiale, *i* et *j* suivent le même *ductus*. **Le retrouve-t-on avec valeur de *j* en milieu de mot ?** traité dans [ce commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-981391510), non ! dans [ce commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-991728058), Victor a montré que *tousjours* est écrit avec le caractère *i*.
 
 En position initiale, *v* prend une forme particulière, mais sa valeur peut être aussi bien *u* que *v*. **Ajouter un exemple avec l'article *une***
 
