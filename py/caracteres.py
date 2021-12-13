@@ -55,7 +55,7 @@ with open("caracteres.html", mode="w") as g:
                     
                     # Div contenant le contenu des notices
                     g.write(f'''<div class="descript">\n
-                                    <p>{donnees[item]["type"]} {donnees[item]["caractere"]}  {donnees[item]["maj-min"]}</p>\n
+                                    <p>{donnees[item]["caractere"]}  {donnees[item]["maj-min"]}</p>\n
                                     <p class="prblm">{donnees[item]["problème"]}</p>''')
                     g.write(f'''<p>{donnees[item]["commentaire"]}</p>\n''')
                     if donnees[item]["encodage"]:
