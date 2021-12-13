@@ -70,7 +70,8 @@ Et encore, *quilz nentrassent* et non *qu'ilz n'entrassent* :
 
 ## Ponctuation
 Le texte du témoin manuscrit a été soigneusement ponctué. On fera appel à des **caractères spéciaux MUFI** pour noter ces signes.
-- Pose forte : MUFI MIDDLE DOT
+- Pause forte : MUFI MIDDLE DOT
     + CM : POINT MEDIAN, pas d'info MUFI ; mais *.* normal par exemple pour bnf_fr_412_wauchier
-- Pose faible : pas encodé dans MsRoi ni Wauchier CM
+- Punctus elevatus, ancêtre du point virgule (MUFI `&punctelev;`, encodé &#F161;) a été transcrit dans Cremma-Medieval par un simple point virgule moderne (cf. table). 
+- Pause faible : pas encodé dans MsRoi ni Wauchier CM
 - Trait de suite : pas encodé dans MsRoi ni Wauchier CM

@@ -31,7 +31,7 @@ img/caracteres/Rmin2.jpg	lettre	R	min
 img/caracteres/Smaj.jpg	lettre	S	maj			
 img/caracteres/Smin.jpg	lettre	S	min rond			
 img/caracteres/Smin3.jpg	lettre	S	min rond			
-https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f20/1694,3549,100,137/max/0/default.jpg	lettre	S long			en discussion issue #17	&#x017F;
+https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f20/1694,3549,100,137/max/0/default.jpg	lettre	S long				&#x017F;
 img/caracteres/Tmin.jpg	lettre	T	min			
 img/caracteres/EminTild.jpg	signe combiné	tilde	min			&#x0303;
 img/caracteres/ponctTraitUnion.jpg	ponctuation	trait d’union		fin de ligne		-
@@ -42,6 +42,6 @@ img/caracteres/abbrVostre.jpg	abréviation	vostre				vr&#x0303;e
 img/caracteres/Xmni.jpg	lettre	X	min			
 img/caracteres/Ymin.jpg	lettre	Y	min			
 img/caracteres/Zmin.jpg	lettre	Z	min			
-img/caracteres/ponct01.jpg	ponctuation			fin de ligne	caractère de suite ?, plus probablement coupure, mais à confirmer	
-img/caracteres/virga.jpg	ponctuation			coupure faible	comment encoder ?	
-img/caracteres/ponct02.jpg	ponctuation			coupure forte	comment encoder ?	
+img/caracteres/ponct01.jpg	ponctuation	virgule		coupure faible	signe composé ? une seule occurrence repérée f. 2v	,
+img/caracteres/virga.jpg	ponctuation	virgule		coupure faible		,
+img/caracteres/ponct02.jpg	ponctuation	punctus elevatus 		coupure forte		;
