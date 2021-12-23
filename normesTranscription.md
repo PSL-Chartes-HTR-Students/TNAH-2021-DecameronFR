@@ -75,3 +75,12 @@ Le texte du témoin manuscrit a été soigneusement ponctué. On fera appel à d
 - Punctus elevatus, ancêtre du point virgule (MUFI `&punctelev;`, encodé &#F161;) a été transcrit dans Cremma-Medieval par un simple point virgule moderne (cf. table). 
 - Pause faible : pas encodé dans MsRoi ni Wauchier CM
 - Trait de suite : pas encodé dans MsRoi ni Wauchier CM
+
+## Corrections
+En discussion dans l'issue #11, à partir de ce [commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-998959561).
+
+Nous avons deux possibilités :
+- La plus simple : ne pas en tenir compte !
+- Un peu plus complexe : utiliser des caractères exponctués (les exponctuations sont bien visibles dans le ms.)
+    - pour ẹ 1EB9 LATIN SMALL LETTER E WITH DOT BELOW 
+    - pour  E466 LATIN SMALL LETTER C WITH DOT BELOW (nécessite la police Junicode)
