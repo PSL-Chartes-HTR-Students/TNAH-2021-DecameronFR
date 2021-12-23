@@ -51,7 +51,7 @@ with open("caracteres.html", mode="w") as g:
                     g.write("<article>\n")
                     
                     # Div contenant les images
-                    g.write(f'''<div class="img"><img src="{item}" alt="{donnees[item]["caractere"]}" height="100"></div>\n''')
+                    g.write(f'''<div class="img"><img src="{item}" alt="{donnees[item]["caractere"]}"></div>\n''')
                     
                     # Div contenant le contenu des notices
                     g.write(f'''<div class="descript">\n
