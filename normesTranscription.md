@@ -19,6 +19,8 @@ Les lettres *i* et *u* doivent être transcrites telles quelles.
 En position initiale, *i* et *j* suivent le même *ductus*. **Le retrouve-t-on avec valeur de *j* en milieu de mot ?** traité dans [ce commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-981391510), non ! dans [ce commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-991728058), Victor a montré que *tousjours* est écrit avec le caractère *i*.
 
 En position initiale, *v* prend une forme particulière, mais sa valeur peut être aussi bien *u* que *v*. **Ajouter un exemple avec l'article *une***
+Traitement dans Cremma (university_of_pennsylvania_660_pelerinage_mademoiselle_sapience, no. 0) [Pelerinage de mademoiselle Sapience](https://github.com/HTR-United/cremma-medieval/tree/main/university_of_pennsylvania_660_pelerinage_mademoiselle_sapience)
+> et vit en une ꝑtie ung lieu gaste aussi cõe une
 
 ## Majuscules et minuscules
 Les noms propres ne prennent pas de majuscule dans le manuscrit (*florence*, f2vb) :
@@ -72,12 +74,14 @@ Et encore, *quilz nentrassent* et non *qu'ilz n'entrassent* :
 
 
 ## Ponctuation
-Le texte du témoin manuscrit a été soigneusement ponctué. On fera appel à des **caractères spéciaux MUFI** pour noter ces signes.
+Le texte du témoin manuscrit a été soigneusement ponctué. On fera appel à des caractères conventionnels et à des **caractères spéciaux MUFI** pour noter ces signes.
 - Pause forte : MUFI MIDDLE DOT
     + CM : POINT MEDIAN, pas d'info MUFI ; mais *.* normal par exemple pour bnf_fr_412_wauchier
 - Punctus elevatus, ancêtre du point virgule (MUFI `&punctelev;`, encodé &#F161;) a été transcrit dans Cremma-Medieval par un simple point virgule moderne (cf. table). 
 - Pause faible : pas encodé dans MsRoi ni Wauchier CM
 - Trait de suite : pas encodé dans MsRoi ni Wauchier CM
+
+La ponctuation n'est pas systématiquement présente avant la conjonction *Et* dotée d'une majuscule, celle-ci ayant une forte valeur syntaxique.
 
 ## Corrections
 En discussion dans l'issue #11, à partir de ce [commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-998959561).
@@ -87,3 +91,13 @@ Nous avons deux possibilités :
 - Un peu plus complexe : utiliser des caractères exponctués (les exponctuations sont bien visibles dans le ms.)
     - pour ẹ 1EB9 LATIN SMALL LETTER E WITH DOT BELOW 
     - pour  E466 LATIN SMALL LETTER C WITH DOT BELOW (nécessite la police Junicode)
+
+Zoé propose de ne pas les signaler [ici](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-1000196675).
+
+## Nombres
+Les nombres ont été écrits suivis d'un point médians :
+
+![3ou4](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f24/3147,1106,410,161/max/0/default.jpg)
+
+On les a transcrits de même :
+> iii· ou iiii·
