@@ -39,6 +39,9 @@ Voir issue #17.
 ## Abréviations
 Les abréviations ne doivent pas être résolues. On fera appel à des **caractères spéciaux MUFI** pour noter les signes d'abréviation.
 
+Pour les abréviations n'ayant pas de caractère dédié :
+- Pour le *-oient* utiliser **'**
+
 ## Accentuation
 En l'absence d'accentuation dans le manuscrit, il n'est sans doute pas pertinent d'employer des caractères accentués dans la transcription. Les règles arbitraires d’accentuation des textes médiévaux ne seraient donc pas appliquées. C'est le choix fait pour le CM (par exemple, pas d'accent aigu sur le *e* final prononcé *é*).
 
