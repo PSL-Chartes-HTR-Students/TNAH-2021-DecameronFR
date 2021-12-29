@@ -10,7 +10,6 @@ with open("csv/caracteres.csv") as f:
         'signe combiné',
         'abréviation',
         'signe tironien',
-        'exemple'
     ]
 
     for adresse_img, typ, lettre, majmin, commentaire, probleme, encodage in lecteur:
