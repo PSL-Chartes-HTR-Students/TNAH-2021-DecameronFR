@@ -1,10 +1,9 @@
-Normes de transcription : liste de points d'attention
+Normes de transcription
 ====
 
 # Mise en page
 ## Paragraphes
-Les paragraphes sont soigneusement marqués dans le manuscrit par l’alternance des **pieds de mouche ¶** rouges et bleus. Discuté dans l'[issue 13](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/13), nous pourrions opter pour une simple transcription avec le caractère MUFI PILCROW SIGN (si choisi, reprendre l'argumentation).
-- Approuvé par [Victor](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-977986556)
+Les paragraphes sont soigneusement marqués dans le manuscrit par des **pieds de mouche** dorés sur fonds alternativement rouges et bleus. Ils ont été transcrits par le caractère ¶ (cf. #13).
 
 ## Annotations
 Voir issue #21
