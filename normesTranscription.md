@@ -1,53 +1,136 @@
 Normes de transcription
 ====
 
-# Mise en page
+# Mise en pages
 ## Paragraphes
-Les paragraphes sont soigneusement marqués dans le manuscrit par des **pieds de mouche** dorés sur fonds alternativement rouges et bleus. Ils ont été transcrits par le caractère ¶ (cf. #13).
+Les paragraphes sont soigneusement marqués dans le manuscrit par des pieds de mouche dorés sur fonds alternativement rouges et bleus. Ils ont été transcrits par le caractère ¶ (cf. [issue 13](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/13)).
 
-## Annotations
-Voir issue #21
+![pied de mouche et annotation](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f26/369,2598,1976,965/max/0/default.jpg)
 
-# Emploi de caractères spéciaux
-- Le projet CREMMA Médiéval (désormais CM) propose une [table des caractères](https://github.com/HTR-United/cremma-medieval/blob/main/table.csv)
-- Le « Manuel d’encodage BFM-Manuscrits » de la *Base de Français Médiéval* (désormais BFM) en ligne [ici](http://bfm.ens-lyon.fr/spip.php?article282) propose lui aussi un choix d'entités MUFI pour les besoins de l'encodage des textes médiévaux (voir p. 35 et suivantes).
+## Annotations marginales
+Comme le montre l'image ci-dessus, des manchettes figurent parfois en marge pour indiquer le sujet d'un passage significatif. Elles n'apparaissent pas dans le manuscrit de la Bibliothèque vaticane (Pal. lat. 1989) dont Arsenal 5070 est un *codex descriptus* et semblent donc être l'oeuvre de notre copiste (cf. [issue 21](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/21)).
 
 # Règles de transcription
-Les lettres *i* et *u* doivent être transcrites telles quelles.
+## *i/j* et *u/v*
+A l'intérieur des mots, les lettres *i* et *j* ainsi que les lettres *u* et *v* ne sont pas graphiquement distinctes, comme ici dans le cas de *tousjours* et de *toutesvoies* :
 
-En position initiale, *i* et *j* suivent le même *ductus*. **Le retrouve-t-on avec valeur de *j* en milieu de mot ?** traité dans [ce commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-981391510), non ! dans [ce commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-991728058), Victor a montré que *tousjours* est écrit avec le caractère *i*.
+![tousjours](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/1400,3439,348,109/max/0/default.jpg) ![toutesvoies](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/1274,3041,409,113/max/0/default.jpg)
 
-En position initiale, *v* prend une forme particulière, mais sa valeur peut être aussi bien *u* que *v*. **Ajouter un exemple avec l'article *une***
-Traitement dans Cremma (university_of_pennsylvania_660_pelerinage_mademoiselle_sapience, no. 0) [Pelerinage de mademoiselle Sapience](https://github.com/HTR-United/cremma-medieval/tree/main/university_of_pennsylvania_660_pelerinage_mademoiselle_sapience)
-> et vit en une ꝑtie ung lieu gaste aussi cõe une
+De même, en position initiale, les caractères ayant valeur de *i* ou *j* suivent le même *ductus*, comme ici avec *jugement* et *illec* :
 
-## Majuscules et minuscules
-Les noms propres ne prennent pas de majuscule dans le manuscrit (*florence*, f2vb) :
-![florence, f2vb](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/2266,3351,995,103/max/0/default.jpg)
+![jugement](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/837,2347,442,136/max/0/default.jpg) ![illec](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f19/685,781,245,128/max/0/default.jpg)
 
-Les majuscules sont employées en début de phrase (après une coupure forte, en début de paragraphe), et parfois après une coupure faible (cf. *infra* Ponctuation) :
-> vous ay promise auant temps, **E**t se par auenture je uous eusse dites (f2vb)
+Les caractères ayant valeur de *u* ou de *v* suivent eux aussi le même *ductus* en position initiale, comme ici avec *vous* et *une* :
 
-![exemple](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/2232,1452,1210,227/max/0/default.jpg)
+![vous](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/877,3276,235,98/max/0/default.jpg) ![une](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f19/1219,2429,180,103/max/0/default.jpg)
 
-Point développé dans [ce commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-981415832) : il s'agirait de transcrire en maj. le E dans le cas du et initial ayant cette valeur syntaxique.
+Des choix distincts se manifestent dans le corpus d'entraînement du projet Cremma-Médiéval, et ce bien que le [readme](https://github.com/HTR-United/cremma-medieval#readme) précise : "*u/v or i/j are not distinguished*".
+
+1. BnF, fr. 411, *Vie de saint Lambert* : les lettres ayant valeur de *u* ou de *v* présentent toujours le même *ductus* dans le manuscrit, en position initiale ou à l'intérieur des mots, mais ils sont parfois transcrits *v* en début de mot :
+
+    ![BNF_fr_411](img/comparaisons/BNF_fr_411_1.jpg)
+    Transcrit :
+    > se li cuers ⁊la langue se vouloient
+    
+    Dans la plupart des cas où *u* a valeur de *v*, ils ont été transcrits par un *u*.
+
+2. BnF, fr. 844, *Manuscrit du Roi* : en position initiale les lettres ayant valeur de *u* ou de *v* prennent la forme d'un *v* ; ce choix graphique a été respecté dans la transcription :
+
+    ![BNF_fr_844](https://gallica.bnf.fr/iiif/ark:/12148/btv1b84192440/f43/276,1357,1203,93/max/0/default.jpg)
+    Transcrit :
+    > quant en tel lieu vout mon cuer em¬
+
+Nous avons fait le choix de ne distinguer *i/j* et *u/v* ni selon leur valeur, ni selon leur forme. Reprenant les exemples d'Arsenal 5070 cités plus haut, ils ont été transcrits : 
+> iugement - illec - uous - une
+
+![jugement](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/837,2347,442,136/max/0/default.jpg) ![illec](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f19/685,781,245,128/max/0/default.jpg) ![vous](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/877,3276,235,98/max/0/default.jpg) ![une](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f19/1219,2429,180,103/max/0/default.jpg)
+
+La limite de ce choix de ne pas distinguer *i/j* et *u/v* est certes de rendre impropre nos données à l'étude de l'apparition des lettres *v* et *j* dans les manuscrits médiévaux.
+
+Ce choix a en revanche pour avantage sa simplicité de conception et d'application, et reste en cohérence avec le système graphique du manuscrit dans la mesure où il ne l'affecte que sur les caractères initiaux et sans en interpréter la valeur phonétique, ménageant ainsi la possibilité d'une évolution des critères et d'une modification en masse.
 
 ## Allographes
-Faut-il distinguer *s* long et *s* rond, par exemple ? **Ils ne sont pas distingués dans CM**. Il s'agit d'entraîner l'algorithme à la reconnaissance des caractères, quelle que soit leur forme graphique.
+Inégalement retenue dans le corpus d'entraînement du Cremma-Médiéval, la distinction des *s* longs et des *s* ronds a été retenue dans notre transcription.
 
-Voir issue #17.
+Outre la stabilité des choix scribaux concernant l'emploi de ces allographes sur la longue durée, les problèmes engendrés par l'indistinction des formes de *s* sont de nature à conforter cette décision. En effet, l'entraînement du modèle HTR a permis de constater de très nombreuses confusions entre  *ſ* et *l*, dont résulte la transcription de nombreux *l* en *s*.
+
+Cf. [issue 11](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-977986556) et [issue 17](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/17).
+
+## Majuscules et minuscules
+Les noms propres ne prennent pas de majuscule dans le manuscrit (par exemple *Florence*, f2vb) :
+
+![florence, f2vb](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/2266,3351,995,103/max/0/default.jpg)
+
+L'emploi des majuscules est en revanche systématique comme élément de structuration du texte par le scribe :
+- Toujours après un pied de mouche ;
+- Toujours après une pause forte (point médian notamment) ;
+- Et dans quelques cas plus complexes, dont un exemple détaillé est exposé ci-après.
+
+Le mot *et* peut ainsi prendre une majuscule, non seulement après un pied de mouche ou une pause forte, mais aussi après une pause faible (de type virgule).
+
+Voici comment le *et* change de valeur graphique en fonction de sa valeur syntaxique, à partir de deux exemples présentant la même ponctuation avant le *et* (la pause faible de type virgule) :
+
+1. Avec *et rire* dans l'exemple suivant, *et* prend une minuscule initiale car il s'agit d'une énumération :
+
+    ![pause faible et E min](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f21/580,1714,1215,267/max/0/default.jpg)
+
+    Transcription interprétative :
+    > soy soulachier et obeir a l'appetit en toute chose possible, et rire de tous cas survenans…
+
+2. En revanche, avec *et ceste chose* dans l'exemple suivant, on est dans le cas d'une locution prépositive ; dans une édition interprétative on ferait précéder *et ceste chose* d'un point marquant la fin de la phrase précédente et *et* prendrait une majuscule, à l'image du choix graphique du scribe :
+
+    ![pause faible et E maj](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f21/591,2456,1226,291/max/0/default.jpg)
+
+    Transcription interprétative :
+    > …taverne, maintenant en une autre sans compte et sans mesure. Et ceste chose ilz faisoient moult plus…
+
+La forme du *e* initial n'étant pas toujours celle-ci (l'exemple précédant le montre avec *et sans mesure*), nous avons bien affaire à des *e* majuscules dans le cas où *et* a la fonction de locution de sens équivalent à *de plus*, *en outre*, etc.
+
+Ce choix de la majuscule se produit dans les mêmes conditions avec le *c* de la locution *c'est assavoir* (f2v).
+
+On a par conséquent transcrit en majuscule :
+- Toutes les lettres placées après un pied de mouche ;
+- Toutes les lettres placées après une pause forte ;
+- Les majuscules employées par le scribe dans le cas étudié ici, où l'usage graphique rejoint la fonction syntaxique de la locution, même après une pause faible de type virgule (ou même en l'absence de toute ponctuation comme on l'indique *infra*).
+
+Cf. [issue 11](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-981415832).
+
+## Séparation des mots
+Le texte présente une séparation des mots claire, que nous avons suivie.
+
+L'usage graphique du scribe a également été respecté en ne découpant pas les articles ou prépositions élidés devant un mot, et en ne restituant pas d'apostrophe.
+
+On a donc transcrit *louuraige* et non *l'ouuraige* dans le cas suivant :
+
+![louuvraige, f2vb](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/2286,3676,371,103/max/0/default.jpg)
+
+Ou encore, *quilz nentrassent* et non *qu'ilz n'entrassent* :
+
+![quilz nentrassent, f3ra](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f19/585,1843,755,140/max/0/default.jpg)
 
 ## Abréviations
-Les abréviations ne doivent pas être résolues. On fera appel à des **caractères spéciaux MUFI** pour noter les signes d'abréviation.
+Les abréviations n'ont pas été résolues. Il a été fait appel à des caractères MUFI dans les cas les plus simples (cf. caracteres.html).
 
-Pour les abréviations n'ayant pas de caractère dédié :
-- Pour le *-oient* utiliser **'**
+Pour les abréviations n'ayant pas de caractère dédié, l'apostrophe (`&#39;`) n'étant ni employée par le scribe ni restituée, a été utilisée comme signe abréviatif générique :
 
-## Accentuation
-En l'absence d'accentuation dans le manuscrit, il n'est sans doute pas pertinent d'employer des caractères accentués dans la transcription. Les règles arbitraires d’accentuation des textes médiévaux ne seraient donc pas appliquées. C'est le choix fait pour le CM (par exemple, pas d'accent aigu sur le *e* final prononcé *é*).
+![estoient](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f23/832,3989,998,184/max/0/default.jpg)
+Transcription interprétative :
+> tres pou de gens mortes estoient
 
-## Lettres pointées
-Les *i* et les *y* sont parfois pointés dans le manuscrit, mais pas systématiquement. 
+A été transcrit :
+> treſpou de gens mortes est'
+
+![enuers](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f24/1487,1838,302,174/max/0/default.jpg)
+Transcription interprétative :
+> Envers
+
+A été transcrit :
+> Enu's
+
+## Accentuation et lettres pointées
+En l'absence d'accentuation dans le manuscrit, aucun caractère accentué n'a été employé dans la transcription.
+
+Les *i* et les *y* sont souvent pointés dans le manuscrit, mais pas systématiquement.
 - *Comprinse* avec *i* pointé :
 
     ![comprinse, f2vb](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/2814,1226,367,124/max/0/default.jpg)
@@ -56,47 +139,35 @@ Les *i* et les *y* sont parfois pointés dans le manuscrit, mais pas systématiq
 
     ![sentier, f2vb](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/2402,1972,262,120/max/0/default.jpg)
 
-Comme le pointage est un élément graphique très petit, en tenir compte nous expose peut-être à un faible taux de succès de la reconnaissance automatisée. En outre, en l'absence de règle évidente suivie par le copiste, il est sans doute préférable de modernier la transcription des *i* en utilisant partout le caractère moderne pointé (les *i* non pointés du ms. BNF fr. 844 ont été transcrits par *i* dans CM).
-
-Ne tenant pas compte du pointage du *i*, il est peut-être cohérent de ne pas tenir compte de celui du *y* (le *y* pointé correspondrait à l'entité MUFI `&ydot;`)
-
-## Séparation des mots
-La séparation des mots a été globalement établie avec précision par le scribe : on rédécoupera donc les mots là où l'algorithme n'y parvient pas. En revanche, il serait préférable de suivre également l'usage graphique du manuscrit en ne découpant pas les articles ou prépositions élidés devant un mot, et en ne restituant pas d'apostrophe.
-
-On transcrira donc *louuraige* et non *l'ouuraige* :
-
-![louuvraige, f2vb](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/2286,3676,371,103/max/0/default.jpg)
-
-Et encore, *quilz nentrassent* et non *qu'ilz n'entrassent* :
-
-![quilz nentrassent, f3ra](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f19/585,1843,755,140/max/0/default.jpg)
-
+Le pointage étant un élément graphique minime, il a été choisi de ne pas en tenir compte (ni pour *i* ni pour *y*) dans la perspective de l'entraînement de modèles HTR. En outre, en l'absence de règle évidente suivie par le copiste, il a été jugé préférable de moderniser la transcription des *i* en utilisant partout le caractère moderne pointé, comme dans le corpus du Cremma-Médiéval.
 
 ## Ponctuation
-Le texte du témoin manuscrit a été soigneusement ponctué. On fera appel à des caractères conventionnels et à des **caractères spéciaux MUFI** pour noter ces signes.
-- Pause forte : MUFI MIDDLE DOT
-    + CM : POINT MEDIAN, pas d'info MUFI ; mais *.* normal par exemple pour bnf_fr_412_wauchier
-- Punctus elevatus, ancêtre du point virgule (MUFI `&punctelev;`, encodé &#F161;) a été transcrit dans Cremma-Medieval par un simple point virgule moderne (cf. table). 
-- Pause faible : pas encodé dans MsRoi ni Wauchier CM
-- Trait de suite : pas encodé dans MsRoi ni Wauchier CM
+Le texte du témoin manuscrit a été soigneusement ponctué. Ces signes ont été transcrits par des caractères conventionnels et des caractères spéciaux MUFI (cf. caracteres.html) :
+- Pause forte : 
+    - Point médian : MUFI MIDDLE DOT ;
+    - *Punctus elevatus*, ancêtre du point virgule d'emploi rare dans notre manuscrit, a été transcrit dans le corpus du Cremma-Médiéval par un simple point virgule moderne ; nous avons repris cette solution ;
+- Pause faible : transcrit par une simple virgule ;
+- Trait de suite : transcrit par un simple trait d'union.
 
-La ponctuation n'est pas systématiquement présente avant la conjonction *Et* dotée d'une majuscule, celle-ci ayant une forte valeur syntaxique.
+La ponctuation est très souvent présente avant la conjonction *Et* dotée d'une majuscule, celle-ci ayant une forte valeur syntaxique. Mais elle est parfois absente :
+
+![Et sans ponctuation](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f24/1000,2649,1205,179/max/0/default.jpg)
 
 ## Corrections
-En discussion dans l'issue #11, à partir de ce [commentaire](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-998959561).
+Le texte présente quelques corrections, comme ici :
 
-Nous avons deux possibilités :
-- La plus simple : ne pas en tenir compte !
-- Un peu plus complexe : utiliser des caractères exponctués (les exponctuations sont bien visibles dans le ms.)
-    - pour ẹ 1EB9 LATIN SMALL LETTER E WITH DOT BELOW 
-    - pour  E466 LATIN SMALL LETTER C WITH DOT BELOW (nécessite la police Junicode)
+![correction](https://user-images.githubusercontent.com/92812358/146972203-b8da3e27-4294-4068-9e28-27883a821e51.jpg)
 
-Zoé propose de ne pas les signaler [ici](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-1000196675).
+Par mesure de simplicité, plutôt que d'utiliser des caractères MUFI pour les lettres exponctuées (par exemple ẹ - 1EB9) il n'en a pas été tenu compte dans la transcription :
+
+> auant et ne auoit
+
+Cf. [issue 11](https://github.com/kristinkonstantinova/TNAH-2021-DecameronFR/issues/11#issuecomment-998959561).
 
 ## Nombres
-Les nombres ont été écrits suivis d'un point médians :
+En accord avec la pratique du scribe, les nombres ont été transcrits suivis d'un point médians :
 
 ![3ou4](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f24/3147,1106,410,161/max/0/default.jpg)
 
-On les a transcrits de même :
+Transcription :
 > iii· ou iiii·
