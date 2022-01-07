@@ -25,6 +25,33 @@
                   WIDTH="4080"
                   HEIGHT="5440">
         
+        <TextBlock HPOS="1613"
+                   VPOS="235"
+                   WIDTH="456"
+                   HEIGHT="268"
+                   ID="eSc_textblock_4e93b85b"
+                   TAGREFS="BT1635">
+          <Shape><Polygon POINTS="1917 253 2069 473 1632 503 1613 417 1795 235"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_1afe3838"
+                    TAGREFS="LT540"
+                    BASELINE="2040 453 1627 466" 
+                    HPOS="1613"
+                    VPOS="226"
+                    WIDTH="427"
+                    HEIGHT="277">
+            <Shape><Polygon POINTS="2040 448 2040 494 1622 503 1622 462 1613 330 1668 326 1758 231 1758 226 1758 226 1763 226 1763 226 1763 226 1768 226 1768 226 1772 226 1885 226 1885 226 1885 226 1890 226 1890 226 1890 226 1894 226 1894 226 1894 231 1990 317 2035 317"/></Shape>
+	    <String CONTENT="Proheme"
+                    HPOS="1613"
+                    VPOS="226"
+                    WIDTH="427"
+                    HEIGHT="277"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
         <TextBlock HPOS="580"
                    VPOS="525"
                    WIDTH="1266"
@@ -282,7 +309,7 @@
                     WIDTH="1102"
                     HEIGHT="145">
             <Shape><Polygon POINTS="1700 1867 1695 1913 598 1913 602 1858 602 1836 884 1836 902 1817 929 1790 929 1786 929 1786 933 1786 933 1786 933 1786 938 1786 938 1786 1101 1768 1101 1768 1106 1768 1341 1790 1396 1795 1405 1786 1418 1777 1418 1772 1418 1772 1423 1772 1423 1772 1423 1772 1428 1772 1428 1772 1432 1772 1700 1772"/></Shape>
-	    <String CONTENT="Et afin que ie neuoiſe dedens"
+	    <String CONTENT="Et afin que ie ne uoiſe dedens"
                     HPOS="598"
                     VPOS="1768"
                     WIDTH="1102"
@@ -469,7 +496,7 @@
                     WIDTH="1137"
                     HEIGHT="127">
             <Shape><Polygon POINTS="1749 2788 1745 2833 612 2837 612 2797 612 2710 1749 2715"/></Shape>
-	    <String CONTENT="teaux qui ſelon leur petiteſte"
+	    <String CONTENT="teaux qui ſelon leur petiteſce"
                     HPOS="612"
                     VPOS="2710"
                     WIDTH="1137"
@@ -729,33 +756,6 @@
                     VPOS="3984"
                     WIDTH="1229"
                     HEIGHT="150"></String>
-          </TextLine>
-
-          
-        </TextBlock>
-        
-        <TextBlock HPOS="1613"
-                   VPOS="235"
-                   WIDTH="456"
-                   HEIGHT="268"
-                   ID="eSc_textblock_4e93b85b"
-                   TAGREFS="BT1635">
-          <Shape><Polygon POINTS="1917 253 2069 473 1632 503 1613 417 1795 235"/></Shape>
-          
-          
-          <TextLine ID="eSc_line_1afe3838"
-                    TAGREFS="LT540"
-                    BASELINE="2040 453 1627 466" 
-                    HPOS="1613"
-                    VPOS="226"
-                    WIDTH="427"
-                    HEIGHT="277">
-            <Shape><Polygon POINTS="2040 448 2040 494 1622 503 1622 462 1613 330 1668 326 1758 231 1758 226 1758 226 1763 226 1763 226 1763 226 1768 226 1768 226 1772 226 1885 226 1885 226 1885 226 1890 226 1890 226 1890 226 1894 226 1894 226 1894 231 1990 317 2035 317"/></Shape>
-	    <String CONTENT="Proheme"
-                    HPOS="1613"
-                    VPOS="226"
-                    WIDTH="427"
-                    HEIGHT="277"></String>
           </TextLine>
 
           
