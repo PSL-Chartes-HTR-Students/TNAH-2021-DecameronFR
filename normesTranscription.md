@@ -30,7 +30,7 @@ Des choix distincts se manifestent dans le corpus d'entraînement du projet Crem
 
     ![BNF_fr_411](img/comparaisons/BNF_fr_411_1.jpg)
     Transcrit :
-    > se li cuers ⁊la langue se vouloient
+    > se li cuers ⁊ la langue se vouloient
     
     Dans la plupart des cas où *u* a valeur de *v*, ils ont été transcrits par un *u*.
 
