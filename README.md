@@ -1,7 +1,8 @@
-# TNAH-2021-DecameronFR
+Projet TNAH-2021-DecameronFR
+====
 ![f18](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/707,1708,1457,822/max/0/default.jpg)
 
-Il s'agirait de travailler sur la description de la peste à Florence par Boccace dans sa traduction française par Laurent de Premierfait d'après le manuscrit 5070 de la Bibliothèque de l'Arsenal (1430-1455 ; lien notice Biblissima ici, lien reproduction Gallica là).
+Le projet vise à la consitution de vérités de terrain pour l'entraînement de modèles HTR à partir d'un manuscrit français des années 1430-1455 : le manuscrit 5070 de la Bibliothèque de l'Arsenal (reproduit sur [Gallica](https://gallica.bnf.fr/ark:/12148/btv1b7100018t/f18)). Ce manuscrit contient la traduction française du *Decameron* de Boccace par Laurent de Premierfait. Nos vérités de terrain recouvrent la description de la peste à Florence située dans le prologue de l'ouvrage.
 
 Le passage concerné occupe les folios 2v (lettrine M) à 6v (premier pied de mouche), soit 16 colonnes, à savoir:
 - [folio 2v](https://gallica.bnf.fr/view3if/ga/ark:/12148/btv1b7100018t/f18)
@@ -14,5 +15,17 @@ Le passage concerné occupe les folios 2v (lettrine M) à 6v (premier pied de mo
 - [folio 6r](https://gallica.bnf.fr/view3if/ga/ark:/12148/btv1b7100018t/f25)
 - [folio 6v](https://gallica.bnf.fr/view3if/ga/ark:/12148/btv1b7100018t/f26)
 
-
-Il s'agit d'un codex descriptus du ms. de la Vaticane Pal. lat. 1989 qui porte la signature de Laurent de Premierfait (cf. notice Jonas ici). Nous avons préféré écarter ce manuscrit en raison de la politique de droit à l'image de la Bibliothèque Vaticane.
+# Contenu du dépôt
+- `css/` : contient la feuille de style de `caracteres.html`
+- `csv/` : contient la table des caractères
+- `img/` : contient des images pour l'illustration de `caracteres.html` et de `normesTranscription.md`
+- `modeles/` : contient les modèles d'entraînement HTR utilisés
+- `py/` : contient le script python de génération de `caracteres.html` à partir de `csv/caracteres.csv`
+- `tutos/` : contient des outils de contribution au projet :
+    - `tutoJunicode.md` : pour installer la police de caractères Junicode
+    - `tuto-segmentation.mp4` : pour segmenter un folio dans e-Scriptorium
+    - `tuto-trasncription.tar.xz` : pour transcrire un folio dans e-Scriptorium
+- `veriteTerrain/` : contient les vérités de terrain du projet : fichiers `.xml` et images `.jpg`
+- `caracteres.html` : table des caractères d'après le manuscrit du projet ; elle propose une liste des formes de lettres et les solutions d'encodage des cas complexes, notamment les abréviations
+- `clavier-virtuel-decameron.json` : clavier virtuel à importer dans e-Scriptorium avant de commencer la transcription ; donne accès à la plupart des caractères spéciaux utilisés
+- `normesTranscription.md` : description détaillée des normes de transcription employée dans le projet
