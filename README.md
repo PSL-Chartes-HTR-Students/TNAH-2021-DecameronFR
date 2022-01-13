@@ -16,16 +16,19 @@ Le passage concerné occupe les folios 2v (lettrine M) à 6v (premier pied de mo
 - [folio 6v](https://gallica.bnf.fr/view3if/ga/ark:/12148/btv1b7100018t/f26)
 
 # Contenu du dépôt
-- `css/` : contient la feuille de style de `caracteres.html`
-- `csv/` : contient la table des caractères
-- `img/` : contient des images pour l'illustration de `caracteres.html` et de `normesTranscription.md`
+- `css/` contient la feuille de style de `caracteres.html`
+- `csv/` contient la table des caractères
+- `img/` contient des images pour l'illustration de `caracteres.html` et de `normesTranscription.md`
 - `modeles/` : contient les modèles d'entraînement HTR utilisés
-- `py/` : contient le script python de génération de `caracteres.html` à partir de `csv/caracteres.csv`
-- `tutos/` : contient des outils de contribution au projet :
+- `py/` contient
+    - `caracteres.py` : le script python de génération de `caracteres.html` à partir de `csv/caracteres.csv`
+    - `iiifSelection.py` : le script python de génération dans un terminal de l'URL d'une zone d'intérêt dans une image IIIF
+- `tutos/` contient des outils de contribution au projet :
+    - `tuto-iiif.md` : pour générer l'URL d'une zone d'intérêt dans une image IIIF
     - `tutoJunicode.md` : pour installer la police de caractères Junicode
     - `tuto-segmentation.mp4` : pour segmenter un folio dans e-Scriptorium
     - `tuto-trasncription.tar.xz` : pour transcrire un folio dans e-Scriptorium
-- `veriteTerrain/` : contient les vérités de terrain du projet : fichiers `.xml` et images `.jpg`
+- `veriteTerrain/` contient les vérités de terrain du projet : fichiers `.xml` et images `.jpg`
 - `caracteres.html` : table des caractères d'après le manuscrit du projet ; elle propose une liste des formes de lettres et les solutions d'encodage des cas complexes, notamment les abréviations
 - `clavier-virtuel-decameron.json` : clavier virtuel à importer dans e-Scriptorium avant de commencer la transcription ; donne accès à la plupart des caractères spéciaux utilisés
 - `normesTranscription.md` : description détaillée des normes de transcription employée dans le projet
