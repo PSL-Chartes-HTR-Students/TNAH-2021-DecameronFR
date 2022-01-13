@@ -86,7 +86,8 @@
                     WIDTH="1174"
                     HEIGHT="132">
             <Shape><Polygon POINTS="1722 770 1722 820 548 834 548 770 548 702 1722 702"/></Shape>
-	    <String CONTENT="des egliſes treſlarges et ꝓfondes"
+	    <String CONTENT="des egliſes treſlarges et
+ꝓfondes"
                     HPOS="548"
                     VPOS="702"
                     WIDTH="1174"
@@ -103,7 +104,8 @@
                     WIDTH="1138"
                     HEIGHT="136">
             <Shape><Polygon POINTS="1718 852 1718 902 580 911 580 852 580 775 1718 779"/></Shape>
-	    <String CONTENT="foſſes · Et apres ce que tous les"
+	    <String CONTENT="foſſes
+· Et apres ce que tous les"
                     HPOS="580"
                     VPOS="775"
                     WIDTH="1138"
@@ -793,7 +795,8 @@
                     WIDTH="1242"
                     HEIGHT="145">
             <Shape><Polygon POINTS="3164 761 3159 820 1922 811 1926 770 1922 698 3159 675"/></Shape>
-	    <String CONTENT="de choſes ne de beſoignes quelconq̃ ·"
+	    <String CONTENT="de choſes ne de beſoignes quelconq̃
+·"
                     HPOS="1922"
                     VPOS="675"
                     WIDTH="1242"
@@ -1116,7 +1119,8 @@
                     WIDTH="1219"
                     HEIGHT="64">
             <Shape><Polygon POINTS="3159 2380 3137 2407 1940 2402 1953 2357 1949 2352 3155 2343"/></Shape>
-	    <String CONTENT="relenquis · Et aucunes des beſtes"
+	    <String CONTENT="relenquis
+· Et aucunes des beſtes"
                     HPOS="1940"
                     VPOS="2343"
                     WIDTH="1219"
@@ -1320,7 +1324,8 @@
                     WIDTH="1152"
                     HEIGHT="140">
             <Shape><Polygon POINTS="3114 3386 3114 3431 1976 3440 1976 3400 1962 3336 1999 3309 1999 3309 2003 3309 2003 3309 2008 3309 2008 3309 2008 3309 2012 3309 2321 3327 2366 3304 2366 3304 2366 3304 2370 3304 2370 3304 2370 3304 2375 3304 2611 3322 2738 3300 2738 3300 2738 3300 2742 3300 3114 3322"/></Shape>
-	    <String CONTENT="meſchiefz de ñre cite florence ·"
+	    <String CONTENT="meſchiefz de ñre cite florence
+·"
                     HPOS="1962"
                     VPOS="3300"
                     WIDTH="1152"
@@ -1474,115 +1479,26 @@
                    TAGREFS="BT1634">
           <Shape><Polygon POINTS="3604 235 3567 321 3517 303 3536 217"/></Shape>
           
-        </TextBlock>
-        
-
-        
-        <TextBlock ID="eSc_dummyblock_">
           
-          
-          <TextLine ID="eSc_line_d92965b3"
-                    TAGREFS="LT540"
-                    BASELINE="317 2942 312 2942" 
-                    HPOS="308"
-                    VPOS="2810"
-                    WIDTH="4"
-                    HEIGHT="426">
-            <Shape><Polygon POINTS="312 2937 312 3236 308 3236 308 2937 308 2810 312 2810"/></Shape>
-	    <String CONTENT=""
-                    HPOS="308"
-                    VPOS="2810"
-                    WIDTH="4"
-                    HEIGHT="426"></String>
-          </TextLine>
-
-          
-          
-          <TextLine ID="eSc_line_fc8581b8"
-                    TAGREFS="LT540"
-                    BASELINE="273 3028 272 3028" 
-                    HPOS="272"
-                    VPOS="2960"
-                    WIDTH="1"
-                    HEIGHT="109">
-            <Shape><Polygon POINTS="273 3069 272 3069 272 3023 272 2960 273 2960"/></Shape>
-	    <String CONTENT=""
-                    HPOS="272"
-                    VPOS="2960"
-                    WIDTH="1"
-                    HEIGHT="109"></String>
-          </TextLine>
-
-          
-          
-          <TextLine ID="eSc_line_0bf8cc79"
-                    TAGREFS="LT540"
-                    BASELINE="266 3123 262 3123" 
-                    HPOS="258"
-                    VPOS="3037"
-                    WIDTH="14"
+          <TextLine ID="eSc_line_a85a88c0"
+                    
+                    BASELINE="3537 288 3578 288" 
+                    HPOS="3536"
+                    VPOS="213"
+                    WIDTH="45"
                     HEIGHT="131">
-            <Shape><Polygon POINTS="262 3118 272 3164 267 3168 258 3118 258 3037 262 3037"/></Shape>
-	    <String CONTENT=""
-                    HPOS="258"
-                    VPOS="3037"
-                    WIDTH="14"
+            <Shape><Polygon POINTS="3536 285 3540 213 3581 231 3576 285 3576 340 3536 344"/></Shape>
+	    <String CONTENT="5"
+                    HPOS="3536"
+                    VPOS="213"
+                    WIDTH="45"
                     HEIGHT="131"></String>
           </TextLine>
 
           
-          
-          <TextLine ID="eSc_line_40c30356"
-                    TAGREFS="LT540"
-                    BASELINE="298 3123 297 3123" 
-                    HPOS="294"
-                    VPOS="3032"
-                    WIDTH="4"
-                    HEIGHT="118">
-            <Shape><Polygon POINTS="294 3032 298 3032 298 3149 294 3150"/></Shape>
-	    <String CONTENT=""
-                    HPOS="294"
-                    VPOS="3032"
-                    WIDTH="4"
-                    HEIGHT="118"></String>
-          </TextLine>
-
-          
-          
-          <TextLine ID="eSc_line_e0895b25"
-                    TAGREFS="LT540"
-                    BASELINE="302 3123 299 3123" 
-                    HPOS="294"
-                    VPOS="2828"
-                    WIDTH="5"
-                    HEIGHT="413">
-            <Shape><Polygon POINTS="299 3118 299 3241 294 3241 294 3118 294 2828 299 2828"/></Shape>
-	    <String CONTENT=""
-                    HPOS="294"
-                    VPOS="2828"
-                    WIDTH="5"
-                    HEIGHT="413"></String>
-          </TextLine>
-
-          
-          
-          <TextLine ID="eSc_line_de92eafa"
-                    TAGREFS="LT540"
-                    BASELINE="277 3200 276 3200" 
-                    HPOS="272"
-                    VPOS="3123"
-                    WIDTH="4"
-                    HEIGHT="136">
-            <Shape><Polygon POINTS="276 3196 276 3259 272 3259 272 3196 272 3123 276 3123"/></Shape>
-	    <String CONTENT=""
-                    HPOS="272"
-                    VPOS="3123"
-                    WIDTH="4"
-                    HEIGHT="136"></String>
-          </TextLine>
-
-          
         </TextBlock>
+        
+
         
       </PrintSpace>
     </Page>
