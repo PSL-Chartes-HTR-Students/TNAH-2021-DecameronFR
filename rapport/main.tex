@@ -1,0 +1,69 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[basckend=biber,sorting=nyt,style=enc]{biblatex}
+\usepackage{csquotes}
+\addbibresource{decameron.bib}
+
+\newcommand{\siecle}[1]{\textsc{#1}\ieme}
+
+\title{decameron-rapport}
+\author{sbiayha }
+\date{20 janvier 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Présentation du projet}
+  \subsection{Un projet de sources numériques sur Github/e-scriptorium (les outils étant imposés, difficile de développer en introduction, présentation/biblio et objectifs a minima?)}
+  \subsection{Choix des sources numériques}
+    
+    \subsubsection{Le manuscrit Paris, Arsenal, réserve 5070}
+
+Plusieurs membres du groupe ayant eu l'occasion de travailler sur un texte commun en première année de master TNAH – la traduction française du \textit{Decameron} de Boccace par Laurent de Premierfait –, nous avons choisi de pousser ce sujet plus loin.
+
+Le manuscrit que nous avions transcrit étant conservé à la Biblioteca Apostolica Vaticana (Pal. lat. 1989), dont les images diffusées en ligne ne sont pas libres de droits, nous nous sommes reportés sur le manuscrit Paris, Bibliothèque de l'Arsenal, Ms-5070 réserve, accessible sur Gallica\footcite{texteLivreAppelleDecameron1401} et dont le colophon précise qu'il a été copié sur le fameux manuscrit du Vatican\footcite{institutderechercheetdhistoiredestextesNoticePARISBibliotheque2012a}.
+
+Le ms. 5070 de l'Arsenal date du deuxième quart du \siecle{xv} siècle. Son écriture se rattache à la catégorie de la littera cursiva selon la classification de Lieftinck-Gumbert-Derolez, catégorie décrite ainsi par D. Stutzmann :
+\begin{quotation}La \textit{littera cursiva} se caractérise par un \textit{a} à simple ove, des \textit{f} et \textit{s} longs filant sur la ligne, et des lettres à hastes avec des boucles. Elle est donc à l’opposé de la \textit{littera textualis}\footcite{EcrituresGothiquesLivresques2022}.\end{quotation}
+
+Son écriture, très régulière, est le fait d'une seule main. Le colophon révèle l'identité du copiste : "explicit la table du transcripvain Guillebert de Mets, hoste de l'Escu de France a Gramont" [biblio: noticeJonas]. Né vers 1390 à Grammont (Flandres), Guillebert de Mets exerça l'activité de copiste pour les ducs de Bourgogne à Paris [biblio: noticeAuteurJonas]. 
+    
+    \subsubsection{Modèles HTR pour les manuscrits littéraires médiévaux et spécificités de leurs corpus d'entraînement}
+      \paragraph{Cremma Médiéval 1.0.0 Bicerin}
+      \paragraph{ModeleHTREneide_PostDocLucien}
+    \subsubsection{Ontologie de segmentation des zones : Segmonto}
+
+\section{Mise en oeuvre}
+
+  \subsection{Organisation fonctionnelle et technique (Organisation / Outils)}
+    \subsubsection{Organisation technique:}
+      \paragraph{Git: Repo distant / locaux etc}
+      \paragraph{e-Scriptorium: Projet online partagé, chargement images etc}
+    \subsubsection{Organisation fonctionnelle:}
+      \paragraph{Git: Branch pour établir et gérer la documentation par thèmes, Issues pour collaborer etc}
+  \subsection{Volet Sources Numériques:}
+    \subsubsection{Etablissement des normes de transcription}
+      \paragraph{Majuscules}
+      \paragraph{Le problème des i/j et u/v}
+        \subparagraph{La transcription graphématique : une définition difficile à saisir}
+        \subparagraph{Hétérogénéité du corpus Cremma-Médiéval}
+        \subparagraph{Choix : avantages, limites et justification}
+    \subsubsection{Utilisation de la plateforme e-Scriptorium}
+      \paragraph{Segmentation}
+      \paragraph{Transcription}
+
+\section{Bilan}
+
+  \subsection{Réflexion Organisation fonctionnelle et technique:}
+    \subsubsection{Github}
+    \subsubsection{Evaluation de la plateforme e-Scriptorium}
+    \subsubsection{Retour d'expérience}
+  \subsection{Volet sources:}
+    \subsubsection{Performances des modèles entraînés}
+    \subsubsection{Réflexion sur les normes de transcription}
+
+\printbibliography
+
+\end{document}
