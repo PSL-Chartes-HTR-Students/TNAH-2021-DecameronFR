@@ -2,3 +2,16 @@
 fdr.md
 facs/
 plan-rapport*
+*.aux
+*.bbl
+*.blg
+*.gz
+*.log
+*.bcf
+*.aux
+*.nav
+*.out
+*.snm
+*.toc
+rapport/*.pdf
+rapport/*.run.xml
