@@ -1,0 +1,105 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[italian, english, french]{babel}
+
+\usepackage{hyperref}
+\usepackage[acronym,toc]{glossaries}
+\newacronym{cremma}{CREMMA}{Consortium Reconnaissance d’Écriture Manuscrite des Matériaux Anciens}
+\newacronym{htr}{HTR}{\textit{Handwritten Text Recognition}}
+
+\usepackage[sorting=nyt,style=enc]{biblatex}
+\usepackage{csquotes}
+
+\addbibresource{decameron.bib}
+
+\newcommand{\siecle}[1]{\textsc{#1}\ieme}
+
+\title{decameron-rapport}
+\author{sbiayha }
+\date{20 janvier 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Présentation du projet}
+\subsection{Un projet de sources numériques sur Github/e-scriptorium}
+(les outils étant imposés, difficile de développer en introduction, présentation/biblio et objectifs a minima?)
+
+\subsection{Choix de la source et des modèles}
+
+\subsubsection{Le manuscrit Paris, Arsenal, réserve 5070}
+Plusieurs membres du groupe ayant eu l'occasion de travailler sur un texte commun en première année de master TNAH – la traduction française du \textit{Decameron} de Boccace par Laurent de Premierfait –, nous avons choisi de pousser ce sujet plus loin.
+Le manuscrit que nous avions transcrit étant conservé à la Biblioteca Apostolica Vaticana (Pal. lat. 1989), dont les images diffusées en ligne ne sont pas libres de droits, nous nous sommes reportés sur le manuscrit Paris, Bibliothèque de l'Arsenal, Ms-5070 réserve, accessible sur Gallica\footcite{ParisBibliothequeArsenal} et dont le colophon précise qu'il a été copié sur le fameux manuscrit du Vatican\footcite{institutderechercheetdhistoiredestextesNoticePARISBibliotheque2012a}.
+
+Le ms. 5070 de l'Arsenal date du deuxième quart du \siecle{xv} siècle. Son écriture se rattache à la catégorie de la \textit{littera cursiva} selon la classification de Lieftinck-Gumbert-Derolez, catégorie décrite ainsi par D. Stutzmann~:
+\begin{quotation}La \textit{littera cursiva} se caractérise par un \textit{a} à simple ove, des \textit{f} et \textit{s} longs filant sur la ligne, et des lettres à hastes avec des boucles. Elle est donc à l’opposé de la \textit{littera textualis}\footcite{stutzmannEcrituresGothiquesLivresques2022}.\end{quotation}
+
+Son écriture, très régulière, est le fait d'une seule main. Le colophon révèle l'identité du copiste~: \begin{quote}
+	\textit{explicit la table du transcripvain Guillebert de Mets, hoste de l'Escu de France a Gramont}\footcite{irhtsectionromaneNoticeParisBibliotheque2012}.
+\end{quote}Né vers 1390 à Grammont (Flandres), Guillebert de Mets exerça l'activité de copiste pour les ducs de Bourgogne à Paris\footcite{irhtsectionromaneGuillebertMets}. 
+
+\subsubsection{Modèles d'\gls{htr}pour les manuscrits littéraires médiévaux et spécificités de leurs corpus d'entraînement}
+\paragraph{Cremma Médiéval 1.0.0 Bicerin}
+Le premier modèle \gls{htr} que nous avons choisi est l'un des deux modèles entraînés dans le cadre du projet \gls{cremma} sur les manuscrits médiévaux du \siecle{xii} au \siecle{xiv} siècle : 1.0.0 Bicerin\footcite{pincheCREMMAMedievalOld2021}.
+
+\paragraph{Modele fineTunEneide}
+Le second modèle que nous avons entraîné est une personnalisation du modèle Bicerin 1.0.0 à partir de l'écriture du manuscrit Philadelphie, University of Pennsylvania, Rare Book and Manuscript Library, Codex 909, réalisée par Lucien Dugaz dans le cadre d'une recherche post-doctorale au sein du Centre Jean Mabillon (EA 3624). Écrit en France dans la seconde moitié du \siecle{xv} siècle, ce manuscrit est plus proche d'Arsenal 5070 par sa chronologie, et son écriture est de type gothique bâtarde\footcite{dugazEditionCritiqueNumerique2021, MedievalRenaissanceManuscripts}.
+
+\subsubsection{Ontologie de segmentation des zones~: Segmonto}
+Pour réaliser la segmentation en zones des pages de notre manuscrit, nous avons suivi les propositions de typage des zones formulées dans les \textit{Guidelines} du projet SegmOnto, dont le vocabulaire contrôlé couvrait largement nos besoins\footcite{campsSegmOntoGuidelines2021}.
+
+\section{Mise en oeuvre}
+
+\subsection{Organisation fonctionnelle et technique (Organisation / Outils)}
+
+\subsubsection{Organisation technique:}
+\paragraph{Git: Repo distant / locaux etc}
+\paragraph{e-Scriptorium: Projet online partagé, chargement images etc}
+
+\subsubsection{Organisation fonctionnelle:}
+\paragraph{Git: Branch pour établir et gérer la documentation par thèmes, Issues pour collaborer etc}
+
+\subsection{Préparation et réalisation de la transcription}
+\subsubsection{Etablissement des normes de transcription}
+Les normes de transcription que nous avons adoptées et qui sont détaillées dans le fichier \texttt{normesTranscription.md} s'efforcent de suivre celles définies dans le cadre du projet \gls{cremma}-Médiéval, elles mêmes inspirées de la \textit{graphemic transcription} telle que conçue par D. Stutzmann\footnote{Voir le fichier Lisez-moi du dépôt d'\cite{pincheCREMMAMedievalOld2021}}. Les abréviations n'ont pas été résolues. Les choix d'encodage correspondant à chaque abréviation sont listés dans le fichier \texttt{caracteres.html}.
+
+\subsubsection{Le problème des i/j et u/v}
+L'application des principes de la transcription graphématique a rencontré quelque diffilcuté à propos des caractères i/j et u/v. 
+\paragraph{Hétérogénéité du corpus \gls{cremma}-Médiéval}
+Les vérités de terrain du projet \gls{cremma}-Médiéval présentent une inégalité de traitement : i/j et u/v y sont parfois distingués selon leur valeur phonétique malgré l'absence de distinction graphique ; ils sont parfois distingués selon leur forme graphique indépendamment de leur valeur phonétique\footnote{Voir les exemples du document \texttt{normesTranscription.md}}.
+
+\paragraph{La transcription graphématique~: une définition difficile à saisir}
+La définition de la \textit{graphemic transcription} proposée dans l'article de D.~Stutzman cité en référence par le projet \gls{cremma}-Médiéval\footcite[p.~251]{stutzmannPaleographieStatistiquePour2011} ne nous a pas permis de lever cette difficulté de manière définitive. L'auteur écrit que la tradition philologique aurait déjà clarifié les problèmes de la \textit{graphemic transcription}, citant les \textit{Conseils pour l'édition des textes médiévaux} publiés par l'École des chartes\footcite{ecolenationaledeschartesConseilsPourEdition2001a}. Pourtant, cette publication prône essentiellement des normes de transcription de type interprétative pour les textes littéraires~; les abréviations y sont restituées et les lettres i/j et u/v distinguées selon leur valeur phonétique et non graphique.
+
+\paragraph{Choix~: avantages et inconvénients}
+Nous avons fait le choix de ne distinguer i/j et u/v ni selon leur valeur, ni selon leur forme. La limite de ce choix de ne pas distinguer i/j et u/v est certes de rendre impropre nos données à l'étude de l'apparition des lettres v et j dans les manuscrits médiévaux. Ce choix a en revanche pour avantage sa simplicité de conception, et reste en cohérence avec le système graphique du manuscrit dans la mesure où il ne l'affecte que sur les caractères initiaux : le scribe a employé les caractères j et v exclusivement et systématiquement en position initiale ; nous les avons toujours transcrits i et u. Ce choix n'interprétant pas la valeur phonétique des caractères, il ménage ainsi la possibilité d'une évolution des normes.
+
+\subsubsection{Utilisation de la plateforme e-Scriptorium}
+La mise en page très canonique (texte sur deux colonnes) et l'absence d'ajout au texte sur les pages que nous avons traitées ont rendu aisée l'étape de la segmentation des folios, bien que la prise en main de la plateforme e-Scriptorium ne se soit avérée quelque peu déroutante.
+
+\paragraph{Segmentation}
+La fonction dessiner une ligne étant par défaut activée, le moindre clic gauche pour sélectionner un objet s'est avéré périlleux ! La segmentation automatique peine a distinguer clairement les deux colonnes de texte, à redécouper dans la plupart des cas. Autre problème, heureusement peu fréquent, les bouts de ligne de la page en regard, qui sont susceptibles d'apparaître en bordure de la photographie d'une page, ne sont pas d'une suppression évidente, et tenter de sélectionner ces lignes pour les supprimer conduit souvent à créer de nouvelles lignes, jusqu'à ce que l'on affiche la zone concernée à 800\% de sa taille réelle pour sélectionner les embryons de lignes indésirables.
+
+\paragraph{Transcription}
+L'entraînement du modèle \gls{htr} a permis de constater de très nombreuses confusions entre ſ et l, dont résulte la transcription de nombreux l en s. Ces confusions ont confirmé l'importance de la distinction des s longs et des s ronds que nous avions retenue parmi les normes de transcription du projet, par-delà l'argument de la stabilité des choix scribaux sur la longue durée, qui fonde a priori la distinction des allographes de s.
+
+Notre texte étant particulièrement proche de celui de la Bibliothèque vaticane (composé dans une écriture plus livresque), la confrontation des manuscrits nous a permis de lever toutes les difficultés de lecture.
+
+L'utilisation du clavier virtuel s'est avérée salutaire pour la saisie des caractères spéciaux définis dans notre table des caractères. En revanche, nous avons souvent été confronté à un bogue consistant en l'insertion du caractère sélectionné sur le clavier virtuel non pas à l'emplacement de la saisie en cours mais au début de la ligne. Ce problème survient lors de la saisie dans une ligne donnée d'un premier caractère au clavier virtuel, et non pour les caractères suivants. Ce premier caractère effacé, les suivants seront insérés comme il se doit à l'emplacement du curseur. Mais le problème se représentera dès la ligne suivante !
+
+Autre facétie de la plateforme~: la numérotation des lignes transcrites revenant entre deux sessions de travail à sa disposition initiale en dépit de sa modification manuelle. En effet, les titres courants ont parfois dû être placés plusieurs fois en position intiale, la machine s'obstinant à les placer après la numérotation des lignes de la première colonne.
+
+\section{Bilan}
+
+\subsection{Réflexion Organisation fonctionnelle et technique:}
+\subsubsection{Github}
+\subsubsection{Evaluation de la plateforme e-Scriptorium}
+\subsubsection{Retour d'expérience}
+\subsection{Volet sources:}
+\subsubsection{Performances des modèles entraînés}
+\subsubsection{Réflexion sur les normes de transcription}
+
+\printbibliography
+
+\end{document}
