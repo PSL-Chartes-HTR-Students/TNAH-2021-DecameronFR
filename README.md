@@ -18,6 +18,7 @@ Le passage concerné occupe les folios 2v (lettrine M) à 6v (premier pied de mo
 # Contenu du dépôt
 - `css/` contient la feuille de style de `caracteres.html`
 - `csv/` contient la table des caractères
+- `documentsDeTravail/` contient les transcriptions utilisées pour réaliser les `veriteTerrain/` du projet
 - `img/` contient des images pour l'illustration de `caracteres.html` et de `normesTranscription.md`
 - `modeles/` : contient les modèles d'entraînement HTR utilisés
 - `py/` contient
