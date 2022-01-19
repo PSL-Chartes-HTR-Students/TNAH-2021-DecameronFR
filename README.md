@@ -20,16 +20,20 @@ Le passage concerné occupe les folios 2v (lettrine M) à 6v (premier pied de mo
 - `csv/` contient la table des caractères
 - `documentsDeTravail/` contient les transcriptions utilisées pour réaliser les `veriteTerrain/` du projet
 - `img/` contient des images pour l'illustration de `caracteres.html` et de `normesTranscription.md`
-- `modeles/` : contient les modèles d'entraînement HTR utilisés
+- `modeles/` : contient les modèles d'entraînement HTR utilisés:
+    - `cremma_medieval_bicerin_decameron.mlmodel` : le modèle Cremma Mediéval 1.0.0 Bicerin entraîné
+    - `cremma_medieval_bicerin.mlmodel` : le modèle Cremma Mediéval 1.0.0 Bicerin
+    - `fineTunEneide2mains_best_decameron.mlmodel` : le modèle fineTunEneide entraîné
+    - `fineTunEneide2mains_best.mlmodel` : le modèle fineTunEneide
 - `py/` contient
     - `caracteres.py` : le script python de génération de `caracteres.html` à partir de `csv/caracteres.csv`
     - `iiifSelection.py` : le script python de génération dans un terminal de l'URL d'une zone d'intérêt dans une image IIIF
 - `tutos/` contient des outils de contribution au projet :
     - `tuto-iiif.md` : pour générer l'URL d'une zone d'intérêt dans une image IIIF
     - `tutoJunicode.md` : pour installer la police de caractères Junicode
-    - `tuto-segmentation.mp4` : pour segmenter un folio dans e-Scriptorium
+    - `tuto-segmentation.mp4` : pour segmenter un folio dans eScriptorium
     - `tuto-trasncription.tar.xz` : pour transcrire un folio dans e-Scriptorium
-- `veriteTerrain/` contient les vérités de terrain du projet : fichiers `.xml` et images `.jpg`
+- `veriteTerrain/` contient les vérité de terrain du projet : fichiers `.xml` et images `.jpg`
 - `caracteres.html` : table des caractères d'après le manuscrit du projet ; elle propose une liste des formes de lettres et les solutions d'encodage des cas complexes, notamment les abréviations
 - `clavier-virtuel-decameron.json` : clavier virtuel à importer dans e-Scriptorium avant de commencer la transcription ; donne accès à la plupart des caractères spéciaux utilisés
 - `normesTranscription.md` : description détaillée des normes de transcription employée dans le projet
