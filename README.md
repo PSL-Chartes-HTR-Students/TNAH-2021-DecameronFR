@@ -26,6 +26,7 @@ Le passage concerné occupe les folios 2v (lettrine M) à 6v (premier pied de mo
 - `py/` contient
     - `caracteres.py` : le script python de génération de `caracteres.html` à partir de `csv/caracteres.csv`
     - `iiifSelection.py` : le script python de génération dans un terminal de l'URL d'une zone d'intérêt dans une image IIIF
+- `rapport/` contient le rapport du projet au format `.pdf`, ainsi qu'un sous-dossier contenant les fichiers-sources `.tex` et `.bib`. 
 - `tutos/` contient des outils de contribution au projet :
     - `tuto-iiif.md` : pour générer l'URL d'une zone d'intérêt dans une image IIIF
     - `tutoJunicode.md` : pour installer la police de caractères Junicode
