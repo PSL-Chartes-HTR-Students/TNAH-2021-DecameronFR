@@ -1,0 +1,17 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: "TNAH-2021-DecameronFR\uFEFF"
+message: Please cite this dataset using these metadata.
+type: dataset
+authors:
+  - given-names: Sébastien
+    family-names: Biay
+  - given-names: Victor
+    family-names: Boby
+  - given-names: Kristina
+    family-names: Konstantinova
+  - given-names: Zoé
+    family-names: Cappe
+url: 'https://github.com/PSL-Chartes-HTR-Students'
