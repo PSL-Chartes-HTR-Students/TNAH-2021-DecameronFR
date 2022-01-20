@@ -10,10 +10,6 @@
 \usepackage[italian, english, french]{babel}
 \usepackage[TS1,T1]{fontenc}
 \usepackage{lmodern}
-\DeclareUnicodeCharacter{17F}{{%
-		\fontencoding{TS1}%
-		\selectfont s%
-}}
 \newcommand\textvtt[1]{{\normalfont\fontfamily{cmvtt}\selectfont #1}}
 
 \usepackage{hyperref}
@@ -41,6 +37,10 @@
 \date{20 janvier 2022}
 
 \begin{document}
+	\DeclareUnicodeCharacter{17F}{{%
+			\fontencoding{TS1}%
+			\selectfont s%
+	}}
 	
 	\maketitle
 	
@@ -123,7 +123,7 @@
 	\newline
 	
 	
-	La fonctionnalité des \textit{issues} de GitHub est quant à elle dédiée aux échanges de l'équipe, également par sujets. Autant que possible, un lien est établi entre les branches, la documentation qu'elles contiennent et les issues.
+	La fonctionnalité des \textit{issues} de GitHub est quant à elle dédiée aux échanges de l'équipe, également par sujets. Autant que possible, un lien est établi entre les branches, la documentation qu'elles contiennent et les \textit{issues}.
 	Ces dernières doivent être rédigées de manière claire et illustrées, en particulier sur les points de discussion relatifs aux transcriptions et à leurs normes.
 	
 	\subsubsection{eScriptorium}
@@ -170,29 +170,29 @@
 	
 	\subsection{Réflexion sur l'organisation fonctionnelle et les aspects techniques}
 	\subsubsection{Git et GitHub}
-	D'un point de vue technique, après une période d'adaptation nécessaire à toute nouvelle pratique, les outils Git et GitHub se prêtent bien à la collaboration simultanée sur le projet. L'équipe semble maîtriser les processus de mise à jour et/ou de correction lorsque cela s'est avéré nécessaire (le facteur humain induit inévitablement des erreurs ponctuelles). Sans doute, et surtout pour des projets plus conséquents, aurait-il fallu créer une branche "Dev" de développement "tampon" entre les branches et le "main", pour imiter les risques de corrompre ce dernier.
+	D'un point de vue technique, après une période d'adaptation nécessaire à toute nouvelle pratique, les outils Git et GitHub se prêtent bien à la collaboration simultanée sur le projet. L'équipe semble maîtriser les processus de mise à jour et/ou de correction lorsque cela s'est avéré nécessaire (le facteur humain induisant inévitablement des erreurs ponctuelles). Sans doute, et surtout pour des projets plus conséquents, aurait-il fallu créer une branche "Dev" de développement intermédiaire entre les branches et le  \textit{main}, pour limiter les risques de corrompre ce dernier.
 	
 	
-	Concernant la conduite du projet, force est de constater qu'il reste essentiel d'organiser des réunions de projet pour discuter de certains points, comme ceux qui sont trop complexes à expliciter exclusivement par écrit ou ceux qui n'ont pas vocation à être publiés. A elles seules, les fonctionnalités de discussion et de suivi permises via les "issues" ou les discussions GitHub ne sont pas suffisantes.
-	A propos des "issues", il aurait été préférable d'ouvrir une nouvelle "issue" sur chaque question dès le départ, notamment s'agissant des caractères : l'"issue" n° 11 a rassemblé les questionnements concernant trop de caractères différents. Par la suite, il est devenu difficile d'y retrouver une information. Enfin, GitHub ne semble pas permettre de déplacer un commentaire, d'une "issue" vers une autre (voire vers une nouvelle) qui lui correspondrait mieux, contrairement à de nombreux outils en ligne. Il semble seulement possible de faire des références.
+	Concernant la conduite du projet, sans surprise, il reste essentiel d'organiser des réunions de projet pour discuter de certains points, comme ceux qui sont trop complexes à expliciter exclusivement par écrit ou ceux qui n'ont pas vocation à être publiés. A elles seules, les fonctionnalités de discussion et de suivi permises via les \textit{issues} ou les discussions GitHub ne sont pas suffisantes.
+	A propos des \textit{issues}, il aurait été préférable d'en ouvrir une nouvelle sur chaque question dès le départ, notamment s'agissant de la transcription des caractères : l'\textit{issue} n° 11 a rassemblé les questionnements concernant trop de caractères différents. Par la suite, il est devenu difficile d'y retrouver une information. Enfin, GitHub ne semble pas permettre de déplacer un commentaire, d'une \textit{issue} vers une autre (voire vers une nouvelle) qui lui correspondrait mieux, contrairement à de nombreux outils en ligne. Il semble seulement possible de faire des références.
 	
 	
 	\subsubsection{Evaluation de la plateforme eScriptorium}
 	
-	La plateforme eScriptorium est un outil qui permet de travailler sans difficulté en groupe, y compris simultanément; cela demande néanmoins une certaine organisation entre les membres du groupe, afin de ne pas défaire ce qui a pu déjà être fait par d’autres, en procédant à la segmentation d’une partie déjà faite (et ainsi en écrasant toutes les corrections déjà faites).
+	La plateforme eScriptorium est un outil qui permet de travailler sans difficulté en groupe, y compris simultanément ; cela demande néanmoins une certaine coordination entre les membres de l'équipe, afin par exemple de ne pas modifier la segmentation achevée de folios déjà traités (et ainsi risquer d'écraser et de perdre les corrections préalablement effectuées).
 	
-	L’apprentissage de l’utilisation de la plateforme peut être assez complexe au début, mais une fois cette étape passée, elle est facile à manipuler, que ce soit pour la segmentation ou la transcription. Il peut cependant y avoir des petits problèmes qui demandent des corrections supplémentaires, même après avoir finalisé la segmentation et commencé la transcription, tels que les problèmes de positionnement du curseur lors de l’insertion des caractères du clavier virtuel ou de numérotation du titre courant mentionnés ci-dessus (il a fallu une fois se résoudre à segmenter à nouveau une page afin de pouvoir replacer correctement la ligne), voire de décalage de lettres dans la transcription qui nécessitent une relecture complète de la page. 
+	L’apprentissage de l’utilisation de la plateforme peut être assez complexe au début, mais une fois cette étape passée, elle est facile à manipuler, que ce soit pour la segmentation ou la transcription. Il peut cependant y avoir des petits problèmes qui demandent des corrections supplémentaires : la segmentation automatique génère parfois des \textit{zones} sur des régions sans inscriptions. Il s'est avéré parfois impossible de supprimer entièrement ces \textit{zones} à l'aide de l'outil ciseau dédié. Elles persistent à l'état de petites \textit{zones} de l'ordre de quelques pixels à peine visibles mais elles peuvent avantageusement être exclues des résultats extraits au format XML ALTO, puisqu'elles ne bénéficient pas du typage SegmOnto établi pour le projet. D'autres complications peuvent être rencontrées après avoir finalisé la segmentation et commencé la transcription, tels que les problèmes de positionnement du curseur lors de l’insertion des caractères du clavier virtuel ou de numérotation du titre courant mentionnés ci-dessus (il a fallu une fois se résoudre à segmenter à nouveau une page afin de pouvoir replacer correctement la ligne), voire de décalage de lettres dans la transcription qui nécessitent une relecture complète de la page. 
 	
 	Ces problèmes ont été résolus sans trop de difficultés sur notre petit nombre de pages (neuf en tout), mais sont beaucoup plus importants si l’on envisage de travailler sur un corpus beaucoup plus volumineux.
 	
 	Il est aussi très intéressant de pouvoir choisir le modèle le plus adapté à l’écriture de son texte, tous les modèles déjà entraînés étant disponibles sur la plateforme, ainsi que de pouvoir entraîner son propre modèle, à partir d’un modèle déjà existant ou non.
 	
-	\textbf{Autres idées de Victor: lors de la segmentation, les ombres sur le pli intérieur du feuillet est parfois interprété comme une Zone (même problèmes avec Tesseract pour Python) qui doit être supprimée. Cette suppression ne fonctionne pas toujours convenablement et des Zones de l'ordre de quelques pixels peuvent rester. Il faut bien penser à exclure les Zones non définies et les lignes orphelines lors de l'export Alto. La sélection des zones/lignes est très difficile et nécessite beaucoup de précision.}
-	
-	
 	\subsubsection{Retour d'expérience}
-	\subsection{Volet sources:}
-	\subsubsection{Performances des modèles entraînés}
+	Outre l'apprentissage et l'approfondissement des compétences techniques nécessaires à l'utilisation de Git et de GitHub, ce projet a permis à l'équipe de se confronter aux enjeux d'un projet \gls{htr}, que ce soit du point de vue de la conduite de projet ou par rapport aux problématiques spécifiques à l'\gls{htr}. Les réflexions menées autour des règles SegmOnto et de transcription ont été riches. S'il est possible de décliner des normes toujours plus précises pour rester le plus proche des sources, nous avons observé que des arbitrages pragmatiques et une limitation du choix des caractères spéciaux étaient nécessaires afin d'assurer l'avancement du projet, toujours en essayant de trouver un équilibre entre une transcription au plus près du document et les besoins réels de eScriptorium pour entraîner les modèles.
+	
+	\subsection{Volet sources}
+	\subsubsection{Perspectives relatives aux modèles entraînés}
+	Si les scores des modèles choisis reflètent des scores au delà de 90\%, nous ne pouvons pas nous prononcer sur le corpus de documents que nous avons transcrits. Les résultats de transcription produits à partir de ces derniers ne semblent pas satisfaisants sur ce corpus. Nous aurions aimé tester les fonctionnalités d'entraînement pour affiner des modèles existants (option \textit{Train}\footcite[au sujet de l'entraînement, voir le point 1.7]{chaguePrendreMainEScriptorium}) ou de création d'un modèle dédié.
 	\subsubsection{Réflexion sur les normes de transcription}
 	\textbf{Dire simplement que des recommandations générales pour les projets de ce type seraient les bienvenues.}
 	
