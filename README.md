@@ -21,9 +21,7 @@ Le passage concerné occupe les folios 2v (lettrine M) à 6v (premier pied de mo
 - `documentsDeTravail/` contient les transcriptions utilisées pour réaliser les `veriteTerrain/` du projet
 - `img/` contient des images pour l'illustration de `caracteres.html` et de `normesTranscription.md`
 - `modeles/` : contient les modèles d'entraînement HTR utilisés:
-    - `cremma_medieval_bicerin_decameron.mlmodel` : le modèle Cremma Mediéval 1.0.0 Bicerin entraîné
     - `cremma_medieval_bicerin.mlmodel` : le modèle Cremma Mediéval 1.0.0 Bicerin
-    - `fineTunEneide2mains_best_decameron.mlmodel` : le modèle fineTunEneide entraîné
     - `fineTunEneide2mains_best.mlmodel` : le modèle fineTunEneide
 - `py/` contient
     - `caracteres.py` : le script python de génération de `caracteres.html` à partir de `csv/caracteres.csv`
