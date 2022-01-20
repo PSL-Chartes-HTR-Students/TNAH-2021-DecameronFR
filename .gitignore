@@ -15,3 +15,6 @@ plan-rapport*
 *.toc
 rapport/*.pdf
 rapport/*.run.xml
+*.acn
+*.glo
+*.ist
