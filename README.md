@@ -32,6 +32,7 @@ Le passage concerné occupe les folios 2v (lettrine M) à 6v (premier pied de mo
     - `tuto-segmentation.mp4` : pour segmenter un folio dans eScriptorium
     - `tuto-trasncription.tar.xz` : pour transcrire un folio dans e-Scriptorium
 - `veriteTerrain/` contient les vérités terrain du projet : fichiers `.xml` et images `.jpg`
+- `CITATION.cff` : informations de citation
 - `caracteres.html` : table des caractères d'après le manuscrit du projet ; elle propose une liste des formes de lettres et les solutions d'encodage des cas complexes, notamment les abréviations
 - `clavier-virtuel-decameron.json` : clavier virtuel à importer dans e-Scriptorium avant de commencer la transcription ; donne accès à la plupart des caractères spéciaux utilisés
 - `normesTranscription.md` : description détaillée des normes de transcription employée dans le projet
