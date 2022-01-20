@@ -37,3 +37,13 @@ Le passage concerné occupe les folios 2v (lettrine M) à 6v (premier pied de mo
 - `caracteres.html` : table des caractères d'après le manuscrit du projet ; elle propose une liste des formes de lettres et les solutions d'encodage des cas complexes, notamment les abréviations
 - `clavier-virtuel-decameron.json` : clavier virtuel à importer dans e-Scriptorium avant de commencer la transcription ; donne accès à la plupart des caractères spéciaux utilisés
 - `normesTranscription.md` : description détaillée des normes de transcription employée dans le projet
+
+# Auteurs
+Ce projet a été réalisé par :
+
+- Sébastien Biay
+- Victor Boby
+- Zoé Cappe
+- Kristina Konstantinova
+
+ dans le cadre du master TNAH "Technologies Numériques Appliquées à l'Histoire" de l'[Ecole Nationale des Chartes](https://www.chartes.psl.eu/)
