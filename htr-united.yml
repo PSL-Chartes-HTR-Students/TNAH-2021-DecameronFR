@@ -1,0 +1,51 @@
+schema: "https://htr-united.github.io/schema/2021-10-15/schema.json"
+title: DecameronFR
+url: 'https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR'
+project-name: >
+    ENC - Bonnes pratiques du developpement collaboratif
+authors:
+    - name: 'Biay'
+      surname: 'Sébastien'
+      roles:
+      - 'transcriber'
+    - name: 'Cappe'
+      surname: 'Zoé'
+      roles:
+      - 'transcriber'
+    - name: 'Konstantinova'
+      surname: 'Kristina'
+      roles:
+      - 'transcriber'
+    - name: 'Boby'
+      surname: 'Victor'
+      roles:
+      - 'transcriber'
+      - 'aligner'
+description: >
+  Le projet vise à la consitution de vérités de terrain pour l’entraînement de modèles HTR à partir d'un manuscrit français des années 1430-1455 : le manuscrit 5070 de la Bibliothèque de l'Arsenal (reproduit sur Gallica). Ce manuscrit contient la traduction française du Decameron de Boccace par Laurent de Premierfait. Nos vérités de terrain recouvrent la description de la peste à Florence située dans le prologue de l'ouvrage.
+language:
+  - frm
+script: 
+  - Latn
+script-type: 'only-manuscript'
+time: 
+  notBefore: "1430"
+  notAfter: "1455"
+hands: 
+  count: '1'
+  precision: 'exact'
+license:
+  - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
+format: 'Alto-XML'
+citation-file-link: 'https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/main/CITATION.cff'
+transcription-guidelines: >
+    Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md
+volume:
+  - count: 751
+    metric: "lines"
+  - count: 9
+    metric: "files"
+  - count: 41
+    metric: "regions"
+  - count: 19821
+    metric: "characters"
