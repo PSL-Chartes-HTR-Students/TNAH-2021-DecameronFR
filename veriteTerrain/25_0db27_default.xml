@@ -11,8 +11,8 @@
   </Description>
   
   <Tags>
-    <OtherTag ID="BT2" LABEL="Main" DESCRIPTION="block type Main"/><OtherTag ID="BT1632" LABEL="DropCapital" DESCRIPTION="block type DropCapital"/><OtherTag ID="BT1633" LABEL="MarginText" DESCRIPTION="block type MarginText"/><OtherTag ID="BT1634" LABEL="Numbering" DESCRIPTION="block type Numbering"/><OtherTag ID="BT1635" LABEL="RunningTitle" DESCRIPTION="block type RunningTitle"/>
-    <OtherTag ID="LT540" LABEL="Default" DESCRIPTION="line type Default"/><OtherTag ID="LT541" LABEL="DropCapital" DESCRIPTION="line type DropCapital"/>
+    <OtherTag ID="BT2" LABEL="MainZone" DESCRIPTION="block type MainZone"/><OtherTag ID="BT1632" LABEL="DropCapitalZone" DESCRIPTION="block type DropCapitalZone"/><OtherTag ID="BT1633" LABEL="MarginTextZone" DESCRIPTION="block type MarginTextZone"/><OtherTag ID="BT1634" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT1635" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/>
+    <OtherTag ID="LT540" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT541" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/>
   </Tags>
   
   <Layout>
