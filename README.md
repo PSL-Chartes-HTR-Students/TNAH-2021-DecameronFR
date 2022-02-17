@@ -2,6 +2,8 @@ Projet TNAH-2021-DecameronFR
 ====
 ![f18](https://gallica.bnf.fr/iiif/ark:/12148/btv1b7100018t/f18/707,1708,1457,822/max/0/default.jpg)
 
+[![DOI](https://zenodo.org/badge/426662625.svg)](https://zenodo.org/badge/latestdoi/426662625)
+
 Le projet vise à la consitution de vérités de terrain pour l'entraînement de modèles HTR à partir d'un manuscrit français des années 1430-1455 : le manuscrit 5070 de la Bibliothèque de l'Arsenal (reproduit sur [Gallica](https://gallica.bnf.fr/ark:/12148/btv1b7100018t/f18)). Ce manuscrit contient la traduction française du *Decameron* de Boccace par Laurent de Premierfait. Nos vérités de terrain recouvrent la description de la peste à Florence située dans le prologue de l'ouvrage.
 
 Le passage concerné occupe les folios 2v (lettrine M) à 6v (premier pied de mouche), soit 16 colonnes, à savoir:

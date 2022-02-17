@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: "TNAH-2021-DecameronFR\uFEFF"
+title: "TNAH-2021-DecameronFR"
 message: Please cite this dataset using these metadata.
 type: dataset
 authors:
@@ -14,4 +14,6 @@ authors:
     family-names: Konstantinova
   - given-names: Zoé
     family-names: Cappe
-url: 'https://github.com/PSL-Chartes-HTR-Students'
+url: 'https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR'
+doi: 10.5281/zenodo.6126376
+version: '1.0'
